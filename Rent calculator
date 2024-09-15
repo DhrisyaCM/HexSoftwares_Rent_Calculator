@@ -1,0 +1,6 @@
+base_rent = float(input("Enter the base rent amount: "))
+utilities = float(input("Enter the utilities cost: "))
+internet = float(input("Enter the internet cost: "))
+other_expenses = float(input("Enter any other expenses: "))
+total_rent = base_rent + utilities + internet + other_expenses
+print(f"Total monthly rent: ${total_rent:.2f}")
